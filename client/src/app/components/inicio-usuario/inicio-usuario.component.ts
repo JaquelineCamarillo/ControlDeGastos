@@ -16,6 +16,9 @@ export class InicioUsuarioComponent implements OnInit {
   idUsuario: string | null = null;
   isChatbotLoaded: boolean = false;
   newsArticles = [];
+  
+  stockData: any;  // Para almacenar los datos de la acción
+  error: string | null = null;    
 
   constructor(
     private presupuestosService: PresupuestosService,
@@ -74,6 +77,7 @@ export class InicioUsuarioComponent implements OnInit {
       }
     );
   }
+  
 
   loadCliengoChatbot() {
     if (!this.isChatbotLoaded && isPlatformBrowser(this.platformId)) {

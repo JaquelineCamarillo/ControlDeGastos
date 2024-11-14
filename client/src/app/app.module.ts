@@ -20,6 +20,8 @@ import { MapComponent } from './components/map/map.component';
 import { EmailService } from './services/email.service'; 
 import { TwitchComponent } from './components/twitch/twitch.component';
 import { SafeUrlPipe } from './safe-url.pipe';
+import { FinanzasComponent } from './components/finanzas/finanzas.component';
+
 
 registerLocaleData(localeEs, 'es');
 
@@ -38,7 +40,9 @@ registerLocaleData(localeEs, 'es');
     UsuarioComponent,
     ResumenComponent,
     TwitchComponent,
+  
     SafeUrlPipe,
+       FinanzasComponent,
   ],
   imports: [
     BrowserModule,

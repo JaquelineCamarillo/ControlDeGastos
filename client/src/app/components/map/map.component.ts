@@ -10,6 +10,8 @@ export class MapComponent implements OnInit {
   map!: any;
   isBrowser: boolean;
   userLocation: { lat: number, lng: number } | undefined;
+  searchQuery: string = '';
+  private markers: any[] = [];
 
   constructor(@Inject(PLATFORM_ID) private platformId: Object) {
     this.isBrowser = isPlatformBrowser(this.platformId);
@@ -69,7 +71,6 @@ export class MapComponent implements OnInit {
 
           .openPopup();*/
   
-        // Llama a la API de Foursquare para obtener lugares cercanos
         await this.getNearbyPlaces(userLat, userLng, L);
       }, (error) => {
         console.error("Error al obtener la ubicación: ", error);
@@ -117,6 +118,7 @@ export class MapComponent implements OnInit {
     }
   }
   
+
 
   // Ajustar el tamaño del mapa al redimensionar la ventana
   @HostListener('window:resize')

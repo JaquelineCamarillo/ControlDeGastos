@@ -1,0 +1,36 @@
+<!--<div *ngIf="stockData; else errorTemplate">
+    <h2>Datos de la Acción ({{ stockData.symbol }})</h2>
+    <p><strong>Precio actual:</strong> {{ stockData.c | currency }}</p>
+    <p><strong>Máximo del día:</strong> {{ stockData.h | currency }}</p>
+    <p><strong>Mínimo del día:</strong> {{ stockData.l | currency }}</p>
+    <p><strong>Precio de apertura:</strong> {{ stockData.o | currency }}</p>
+  </div>
+  
+  <ng-template #errorTemplate>
+    <p>{{ error }}</p>
+  </ng-template>-->
+  <div class="search-container">
+    <form (ngSubmit)="buscar()">
+      <input 
+        type="text" 
+        placeholder="Ingrese símbolo de acción (Ej: AAPL)" 
+        [(ngModel)]="simboloBusqueda" 
+        name="symbol" 
+        required 
+        class="search-input">
+      <button type="submit" class="search-button">Buscar</button>
+    </form>
+  </div>
+  
+  <div *ngIf="stockData; else errorTemplate">
+    <h2>Datos de la Acción ({{ stockData.symbol }})</h2>
+    <p><strong>Precio actual:</strong> {{ stockData.c | currency }}</p>
+    <p><strong>Máximo del día:</strong> {{ stockData.h | currency }}</p>
+    <p><strong>Mínimo del día:</strong> {{ stockData.l | currency }}</p>
+    <p><strong>Precio de apertura:</strong> {{ stockData.o | currency }}</p>
+  </div>
+  
+  <ng-template #errorTemplate>
+    <p>{{ error }}</p>
+  </ng-template>
+  
