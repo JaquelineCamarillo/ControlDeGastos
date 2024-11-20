@@ -100,7 +100,8 @@
                         <div class="error-message" *ngIf="errorMessages['MetodoPago']">
                             <i class="fas fa-exclamation-circle"></i> {{ errorMessages['MetodoPago'] }}
                         </div>
-                    </div>                        
+                    </div>  
+                    <div *ngIf="gasto.MetodoPago === 'PayPal'" id="paypal-button-container"></div>                   
                     <div class="error-message" *ngIf="errorMessages['general']">
                         <i class="fas fa-exclamation-circle"></i> {{ errorMessages['general'] }}
                     </div>              

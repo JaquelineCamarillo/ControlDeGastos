@@ -23,6 +23,7 @@ import { SafeUrlPipe } from './safe-url.pipe';
 import { FinanzasComponent } from './components/finanzas/finanzas.component';
 
 
+
 registerLocaleData(localeEs, 'es');
 
 @NgModule({
@@ -43,6 +44,7 @@ registerLocaleData(localeEs, 'es');
   
     SafeUrlPipe,
        FinanzasComponent,
+       
   ],
   imports: [
     BrowserModule,

@@ -68,12 +68,20 @@ export class GastoFormComponent implements OnInit {
     }
     if (!this.gasto.MetodoPago) {
       this.errorMessages['MetodoPago'] = 'Seleccione un método de pago*';
+    }if (this.gasto.MetodoPago === 'PayPal' && !this.gasto.Comprobante) {
+      this.errorMessages['Comprobante'] = 'Debe adjuntar un comprobante para PayPal*';
     }
+    
 
     return Object.keys(this.errorMessages).length === 0;
   }
 
   saveGasto() {
+    if (this.gasto.MetodoPago === 'PayPal') {
+      console.log('Método de pago seleccionado: PayPal');
+      // Puedes agregar lógica adicional aquí
+    }
+
     if (this.validateForm()) {
       console.log('IdUsuario:', this.idUsuario);
       console.log('Gasto:', this.gasto);

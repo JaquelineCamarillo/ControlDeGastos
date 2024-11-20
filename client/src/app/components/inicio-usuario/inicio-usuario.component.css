@@ -396,4 +396,12 @@ li:hover .tooltip {
   .stock-results {
     margin-top: 20px;
   }
-  
+  .finanzas-title {
+    font-size: 48px;
+    font-weight: bold;
+    color: #9C7215; 
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
