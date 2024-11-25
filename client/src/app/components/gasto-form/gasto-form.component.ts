@@ -4,7 +4,7 @@ import { GastosService } from '../../services/gastos.service';
 import { Router, ActivatedRoute } from '@angular/router';
 import { NotificationService } from '../../services/notification.service';
 import { EmailService } from '../../services/email.service';
-import { PaypalService } from '../../paypal.service';
+import { PaypalService } from '../../services/paypal.service';
 
 @Component({
   selector: 'app-gasto-form',
