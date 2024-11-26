@@ -1,79 +1,79 @@
 {
-  "hash": "ffff4a06",
+  "hash": "8b7b5af3",
   "configHash": "269eeff3",
-  "lockfileHash": "87e1c47c",
-  "browserHash": "9271d244",
+  "lockfileHash": "066074e1",
+  "browserHash": "930d7a1c",
   "optimized": {
     "@angular/common": {
       "src": "../../../../../node_modules/@angular/common/fesm2022/common.mjs",
       "file": "@angular_common.js",
-      "fileHash": "3430360d",
+      "fileHash": "d345d403",
       "needsInterop": false
     },
     "@angular/common/http": {
       "src": "../../../../../node_modules/@angular/common/fesm2022/http.mjs",
       "file": "@angular_common_http.js",
-      "fileHash": "2c7a3609",
+      "fileHash": "38723807",
       "needsInterop": false
     },
     "@angular/common/locales/es": {
       "src": "../../../../../node_modules/@angular/common/locales/es.mjs",
       "file": "@angular_common_locales_es.js",
-      "fileHash": "edcb8c39",
+      "fileHash": "a33a8251",
       "needsInterop": false
     },
     "@angular/core": {
       "src": "../../../../../node_modules/@angular/core/fesm2022/core.mjs",
       "file": "@angular_core.js",
-      "fileHash": "b4d87145",
+      "fileHash": "93736952",
       "needsInterop": false
     },
     "@angular/forms": {
       "src": "../../../../../node_modules/@angular/forms/fesm2022/forms.mjs",
       "file": "@angular_forms.js",
-      "fileHash": "590ea60d",
+      "fileHash": "516ad4cd",
       "needsInterop": false
     },
     "@angular/platform-browser": {
       "src": "../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
       "file": "@angular_platform-browser.js",
-      "fileHash": "1080920d",
+      "fileHash": "85abeeb0",
       "needsInterop": false
     },
     "@angular/router": {
       "src": "../../../../../node_modules/@angular/router/fesm2022/router.mjs",
       "file": "@angular_router.js",
-      "fileHash": "e5977f1b",
+      "fileHash": "76dfbd24",
       "needsInterop": false
     },
     "leaflet": {
       "src": "../../../../../node_modules/leaflet/dist/leaflet-src.js",
       "file": "leaflet.js",
-      "fileHash": "cd171d89",
+      "fileHash": "87fd4aea",
       "needsInterop": true
     },
     "pdfmake/build/pdfmake": {
       "src": "../../../../../node_modules/pdfmake/build/pdfmake.js",
       "file": "pdfmake_build_pdfmake.js",
-      "fileHash": "3e9fa05f",
+      "fileHash": "ea2c97d6",
       "needsInterop": true
     },
     "pdfmake/build/vfs_fonts": {
       "src": "../../../../../node_modules/pdfmake/build/vfs_fonts.js",
       "file": "pdfmake_build_vfs_fonts.js",
-      "fileHash": "ed200a1d",
+      "fileHash": "31e29cd5",
       "needsInterop": true
     },
     "rxjs": {
       "src": "../../../../../node_modules/rxjs/dist/esm5/index.js",
       "file": "rxjs.js",
-      "fileHash": "88b64b83",
+      "fileHash": "e7445e23",
       "needsInterop": false
     },
     "rxjs/operators": {
       "src": "../../../../../node_modules/rxjs/dist/esm5/operators/index.js",
       "file": "rxjs_operators.js",
-      "fileHash": "eae91a9c",
+      "fileHash": "a61c3468",
       "needsInterop": false
     }
   },
@@ -90,11 +90,11 @@
     "chunk-PPBJQ54X": {
       "file": "chunk-PPBJQ54X.js"
     },
-    "chunk-MOY5LPCH": {
-      "file": "chunk-MOY5LPCH.js"
-    },
     "chunk-MJQNUHK2": {
       "file": "chunk-MJQNUHK2.js"
+    },
+    "chunk-MOY5LPCH": {
+      "file": "chunk-MOY5LPCH.js"
     },
     "chunk-SAI3DHVA": {
       "file": "chunk-SAI3DHVA.js"

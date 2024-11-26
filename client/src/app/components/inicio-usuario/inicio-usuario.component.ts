@@ -82,10 +82,11 @@ export class InicioUsuarioComponent implements OnInit {
   loadCliengoChatbot() {
     if (!this.isChatbotLoaded && isPlatformBrowser(this.platformId)) {
       const script = this.renderer.createElement('script');
-      script.src =   'https://s.cliengo.com/weboptimizer/672ae167790b8626f6ba5222/672d73c83d4bf7630695e81b.js?platform=onboarding_modular',
+      script.src =  'https://s.cliengo.com/weboptimizer/67461ad17ebb4847525a20f0/67461d2c11813f74ed3fa632.js?platform=view_installation_code',
       script.async = true;
       this.renderer.appendChild(document.body, script);
       this.isChatbotLoaded = true;  // Evita cargar el script nuevamente
     }
   }
 }
+//  https://s.cliengo.com/weboptimizer/67461ad17ebb4847525a20f0/67461d2c11813f74ed3fa632.js?platform=view_installation_code'
